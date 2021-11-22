@@ -6,7 +6,8 @@ app.use(express.static(__dirname));
 app.get("/", function(req, res){
     res.sendFile(__dirname+"/html/task2.html");
 })  
-app.listen(3000, function()
+var port=process.env.PORT||3000;
+app.listen(port, function()
 {
-    console.log("Server Starting running on http://localhost:"+3000);
+    console.log("Server Starting running on http://localhost:"+port);
 });
