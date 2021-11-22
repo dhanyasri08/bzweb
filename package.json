@@ -1,0 +1,25 @@
+{
+  "name": "bzweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/dhanyasri08/bzweb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhanyasri08/bzweb/issues"
+  },
+  "homepage": "https://github.com/dhanyasri08/bzweb#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  }
+}
